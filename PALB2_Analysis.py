@@ -11,8 +11,6 @@ All the data are exported into a csv
 """
 
 # create an empty dataFrame object to store the information of the sequences
-# 'orginal_index' refers to the index on the library variant (the entire sequence)
-# 'mutation_index' refers to the index on the PABL2 gene only (not the entire sequence)
 df = pd.DataFrame(columns=['Variant', 'Sequence', 'Orientation', 'attB_index',
                            'read_1', 'read_2', 'barcode', 'barcode_length', 'bar_type',
                            'twist1', 'twist2', 'twist_barcode', 'orginal_index',
