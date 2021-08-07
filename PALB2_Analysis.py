@@ -192,9 +192,9 @@ def amino_acids(aa):
     if aa == "GGT" or aa == "GGC" or aa == "GGA" or aa == "GGG":
         return "Gly"
 
-    # A helper method to find which mutation index goes with other indices as part of a codon
-
-
+      
+      
+# A helper method to find which mutation index goes with other indices as part of a codon
 # For example, a index of 1 will have 0 and 2 as part of the same codon
 def helper_findSameCodonIndex(index):
     if index % 3 == 0:
